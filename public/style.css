@@ -1,0 +1,81 @@
+body 
+{
+    background-color: #66b3ff;
+}
+
+#car 
+{
+    color: white;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.model
+{
+	
+	margin-right: 120px;
+}
+ .price-by-day
+ {
+    margin-right: 120px;
+ }
+
+ .price-by-km
+ {
+ 	margin-right: 120px
+ }
+
+#rental
+{
+	color: white;
+	margin-left: 90px;
+}
+
+.begin
+{
+	margin-right: 115px;
+}
+ .end
+ {
+    margin-right: 100px;
+ }
+
+ .distance
+ {
+ 	margin-right: 80px
+ }
+
+
+
+#compute
+{
+    margin-top : 120px;
+    background-color:#1613c4;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #0d00ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+h1{
+ margin:20px;
+ padding:40px;
+ font-size: 62px;
+ }
+
+#block
+{
+	text-align: center;
+	margin-top: 50vh;
+	transform: translateY(-50%);
+}
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS/HTML Workshop with Drivy</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body align="center">
+  
+    <div id="block">
+    <h1 align="center">Drivy Rental</h1>
+    <div id="car">
+    <label>Car Model :</label>
+      <input class="model" type="text" />
+    <label>Price by day :</label>
+      <input class="price-by-day" type="number" />
+    <label>Price by km :</label>
+      <input class="price-by-km" type="number" />
+    </div>
+    <div id="rental">
+    <label>Begin date :</label>
+      <input class="begin" type="date" placeholder="Rental begin date"/>
+    <label>End date :</label>
+      <input class="end" type="date" placeholder="Rental end date"/>
+    <label>Distance in km:</label>
+      <input class="distance" type="number" />
+      <input class="option" type="checkbox" placeholder="Deductible option"/>
+    </div>
+    <button id="compute">Compute</button>
+    </div>
+
+    <div id="actors"></div>
+    <script id="template" type="x-tmpl-mustache">
+      {{#actors}}
+        <div class="actor">
+          <span>{{who}}</span>
+          <span>{{type}}</span>
+          <span>{{amount}}</span>
+        </div>
+      {{/actors}}
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+    <script src="drivy.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
